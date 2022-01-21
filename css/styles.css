@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Spartan', sans-serif;
     font-size:0.9em;
@@ -10,6 +11,7 @@ body{
     height: 1300px;
     width:375px;
 }
+
 .title{
     color:hsl(300, 43%, 22%);
     margin-left:auto;
@@ -22,6 +24,7 @@ body{
     line-height: 34px;
     width:270px;
 }
+
 .paragraph{
     width:330px;
     margin-left:auto;
@@ -30,6 +33,7 @@ body{
     text-align: center;
     line-height: 25px;
 }
+
 .section-1{
     width:375px;
     height:240px;
@@ -41,6 +45,7 @@ body{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+
 .review-box{
     position:relative;
     background-color: hsl(300, 24%, 96%);
@@ -52,6 +57,7 @@ body{
     font-weight: 700;
     color:hsl(300, 43%, 22%);
 } 
+
 .review-box__star--icon-1, .review-box__star--icon-2, .review-box__star--icon-3 ,.review-box__star--icon-4, .review-box__star--icon-5{
     position:absolute;
     top:15px;
@@ -63,18 +69,23 @@ body{
     height:17px;
     width:16px;  
 }
+
 .review-box__star--icon-2{
     left:125px;
 }
+
 .review-box__star--icon-3{
     left:154px;
 }
+
 .review-box__star--icon-4{
     left:183px;
 }
+
 .review-box__star--icon-5{
     left:212px;
 }
+
 .section-2{
     display:flex;
     flex-direction: column;
@@ -85,6 +96,7 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
+
 .comment-box{
     position:relative;
     background-color: hsl(300, 43%, 22%);
@@ -97,6 +109,7 @@ body{
     font-size: 13px;
     line-height: 1.7em;
 }
+
 .comment-box__image-1 ,.comment-box__image-2 ,.comment-box__image-3{
     position: absolute;
     top:32px;
@@ -107,13 +120,13 @@ body{
     height:44px;
 }
 .comment-box__image-1{
-    background-image:url(/assets/images/image-colton.jpg);
+    background-image:url(./../assets/images/image-colton.jpg);
 }
 .comment-box__image-2{
-    background-image:url(/assets/images/image-irene.jpg);
+    background-image:url(./../assets/images/image-irene.jpg);
 }
 .comment-box__image-3{
-    background-image:url(/assets/images/image-anne.jpg);
+    background-image:url(./../assets/images/image-anne.jpg);
 }
 .comment-box__name{
     position: absolute;
@@ -130,14 +143,14 @@ body{
 .background__top{
     position:absolute;
     top:0;
-    background-image: url(/assets/images/bg-pattern-top-mobile.svg);
+    background-image: url(./../assets/images/bg-pattern-top-mobile.svg);
     height:232px;
     width:375px;
 }
 .background__bottom{
     position: absolute;
     top:928px;
-    background-image: url(/assets/images/bg-pattern-bottom-mobile.svg);
+    background-image: url(./../assets/images/bg-pattern-bottom-mobile.svg);
     height:503px;
     width:375px;
 }
@@ -148,14 +161,14 @@ body{
         height:100vh;
         overflow: hidden;
     }
+    
     .container{
         position:relative;
         margin:20vh 29vh;
         min-width: 1024px;
-        /* background-color: aqua; */
     }
+
     .title{
-        /* background-color: yellow; */
         width:34vw;
         max-width: 350px;
         text-align:left;
@@ -163,22 +176,19 @@ body{
         font-size: 2.5em;
 
         margin:0;
-    }    
+    }   
+
     .paragraph{
-        /* background-color: aquamarine; */
         max-width: 450px;
         text-align: left;
         width: 41vw;
-        
         margin:1vh 0 0 0;
-        
     }
+
     .section-1{
-        /* background-color: black; */
         width:40vw;
         height:210px;
         margin:0;
-
         display:grid;
         grid-template-rows:repeat(3,1fr);
         grid-template-columns: 40vw;
@@ -190,9 +200,11 @@ body{
     .section-1 .review-box:nth-child(1){
         justify-self: start;
     }
+
     .section-1 .review-box:nth-child(2){
         justify-self: center;
     }
+
     .section-1 .review-box:nth-child(3){
         justify-self: end;
     }
@@ -204,33 +216,33 @@ body{
         width:480px;
         padding-top: 22px;
         padding-left: 210px;
-
-        
         text-align:justify;
     } 
+
     .review-box__star--icon-1, .review-box__star--icon-2, .review-box__star--icon-3 ,.review-box__star--icon-4, .review-box__star--icon-5{
         position:absolute;
         top:18px;
         left:32px; 
     }
+
     .review-box__star--icon-2{
         left:60px;
     }
+
     .review-box__star--icon-3{
         left:88px;
     }
+
     .review-box__star--icon-4{
         left:116px;
     }
+
     .review-box__star--icon-5{
         left:144px;
     }
 
-
-
-
     .section-2{
-        /* background-color: blueviolet; */
+  
         width: inherit;
         height:250px;
         margin:0;
@@ -277,7 +289,7 @@ body{
         top:60px;
     }
     .background__top{
-        background-image: url(/assets/images/bg-pattern-top-desktop.svg);
+        background-image: url(./../assets/images/bg-pattern-top-desktop.svg);
         height:362px;
         width:584px;
     }
@@ -285,7 +297,7 @@ body{
     .background__bottom{
         top:40%;
         right:0;
-        background-image: url(/assets/images/bg-pattern-bottom-mobile.svg);
+        background-image: url(./../assets/images/bg-pattern-bottom-mobile.svg);
         background-size:cover;
         height:673px;
         width:1085px;
